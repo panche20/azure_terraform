@@ -1,0 +1,20 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Terraform configuration/credential variables
+*.tfvars
+*.tfvars.json
+
+# Local directory and lock files
+.terraform/
+.terraform.lock.hcl
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Shell scripts containing credentials (optional, or sanitize them)
+*secret*
+*.env
